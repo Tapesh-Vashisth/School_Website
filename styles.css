@@ -1,3 +1,20 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
 * {
     padding: 0px;
     margin: 0px;

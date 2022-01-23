@@ -1,0 +1,27 @@
+#contact-main{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Contact > div > div{
+    margin: 10px;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.half{
+    width: 50vw;
+}
