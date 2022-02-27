@@ -27,7 +27,7 @@ body{
 
 nav{
     height: 10vh;
-    background-color: #8b5785;
+    background-color: #A85751;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,7 +80,12 @@ nav{
 
 footer{
     color: #fff;
-    background-color: #1c3fa8;
+    background-color: #251351;
+}
+
+.container{
+    background-image: url(blur.jpeg);
+    background-size: cover;
 }
 
 footer .grid{

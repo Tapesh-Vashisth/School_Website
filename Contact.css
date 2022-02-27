@@ -6,6 +6,10 @@
     padding: 50px;
 }
 
+#contact-main{
+    background-color: #C97B84;
+}
+
 .Contact{
     display: flex;
     flex-direction: row;
@@ -16,7 +20,26 @@
     margin: 10px;
 }
 
+input{
+    height: 30px;
+}
+
+textarea{
+    max-height: 100px;
+    max-width: 50%;
+}
+
+
+address h2{
+    margin-bottom: 25px;
+}
+
+#second{
+    font-size: 18px;
+}
+
 address{
+    font-style: normal;
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
@@ -24,4 +47,18 @@ address{
 
 .half{
     width: 50vw;
+}
+
+iframe{
+    height: 27vh;
+    width: 80%;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+form div{
+    margin: 10px 0px;
 }
